@@ -56,8 +56,8 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (f"🌐 {(tlang(q, 'start.language_btn'))}", "chlang"),
                 (
-                    f"🗃️ {(tlang(q, 'start.source_code'))}",
-                    "https://github.com/DivideProjects/Alita_Robot",
+                    f"🎉 {(tlang(q, 'start.updates'))}",
+                    "https://t.me/Andrea_updates",
                     "url",
                 ),
             ],
